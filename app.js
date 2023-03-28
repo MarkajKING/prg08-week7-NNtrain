@@ -1,5 +1,5 @@
 function loadData() {
-        Papa.parse("./model/winequality.csv", {
+        Papa.parse("./data/winequality.csv", {
                 download: true,
                 header: true,
                 dynamicTyping: true,
